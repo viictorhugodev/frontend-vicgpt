@@ -1,6 +1,8 @@
+import { RouterProvider } from "react-router-dom"
+import { router } from "./presentation/router/router"
 
 export const VicGPT = () => {
   return (
-    <h1 className="text-9xl font-bold fade-in">VicGPT</h1>
+    <RouterProvider router={router} />
   )
 }
